@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to
 1. Clone the repo:
-`git clone git@github.com:sigurdskogmo/symforch-web.git`
+`git clone git@github.com:laafte/symforch-web.git`
 
 2. Install Node-packages: 
 `npm install`
@@ -22,7 +22,7 @@ Edit the source code and see the changes apply live on `http://localhost:3000`
 `npm run build`
 
 5. Deploy build:
-`./deploy.sh <samfundet-username>
+`./deploy.sh <samfundet-username>`
 
 ## About redirects
 Redirects are defined in `public/.htaccess` and will only work on an Apache-hosted page, not on the local development server.
