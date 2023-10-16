@@ -1,0 +1,12 @@
+/* .App {
+  text-align: center;
+}
+ */
+
+a {
+   text-decoration: underline;
+   color: #AE0000;
+}
+a:hover {
+  color: #ee1d23;
+}
