@@ -16,7 +16,7 @@ import Img from '../../components/Img';
 //import Copyright from '../../components/Copyright';
 import Sponsors from '../../components/Sponsors';
 import UpcomingItem from '../../components/UpcomingItem';
-import banner from '../../assets/symforch_fb_banner.jpg';
+import banner from '../../assets/symforch_presenterer.jpg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -58,31 +58,30 @@ const ConcertView = () => {
                 <div>
                 <Container maxWidth="lg" className={classes.container}>
                     <Grid container spacing={3}>
-                        {/* <Grid item lg={12} md={12} xs={12}>
+                        <Grid item xs={12} md={8} lg={8}>
                             <Paper className={classes.paper}>
                                 <Typography component="p" variant="h4">
-                                    Tidligere konserter
+                                    Førstkommende konsert
                                 </Typography>
                                 <Typography component="p" variant="h5">
-                                    Festkonsert
+                                    Studentersamfundets Symfoniorkester
                                 </Typography>
-                                <Img source={festkonsert_banner} alt={'Bannerplakat for festkonsert'} className={classes.img}/>
+                                <Img source={banner} credit={"Foto: foto.samfundet.no"} alt={'Bannerplakat'} className={classes.img}/>
                                 <Typography component="p" variant="body1">
-                                    <b>Når: </b>6. oktober kl. 20:00<br />
-                                    <b>Hvor: </b>Storsalen, Studentersamfundet<br />
+                                    <b>Når: </b>28. oktober kl. 13:00<br />
+                                    <b>Hvor: </b>Studentersamfundet<br />
                                     <b>Hva: </b>
-                                    1910 startet en gruppe studenter og musikere i Trondheim sitt eget musikalorkester. 
-                                    I løpet av tiden vokste vi, og ble fort et fullt symfoniorkester som har funnet 
-                                    sitt hjem i Storsalen. I 2020 ble vi hele 110år! 
-                                    Dette måtte vi selvfølgelig feire slik vi liker best: med en staselig festkonsert.<br /><br />
-                                    
-                                    Vi presenterte et variert program, med alt fra norsk folkemusikk til latin-amerikanske rytmer.<br /><br />
-                                    
-                                    <i>Opptak av konserten er lagt ut på <a href='https://youtu.be/OEVUkf47IPA'>YouTube</a>.</i>
-                                </Typography>
-                                <Video title={"festkonsert_yt_embed"}/>
+                                    Bli med på en reise inn i filmverdenens magi med Studentersamfundets Symfoniorkester. 
+                                    Under ledelse av dirigent Espen Andersen tar Symforch deg med på en følelsesladet reise gjennom uforglemmelige filmlydspor. 
+                                    Fra hjertevarmende øyeblikk til episke scener, vil aftenen utvilsomt vekke minner og berøre ditt musikk- og filmhjerte. 
+                                    Bli med og del denne stemningsfulle opplevelsen med oss!<br /><br />
+
+                                    Dirigeres av Espen Andersen.<br /><br />
+
+                                    <b>Billetter (UTSOLGT):</b> <a href="https://www.uka.no/program/858-symforch-presenterer/1222/">uka.no</a>
+                                </Typography>             
                             </Paper>
-                        </Grid> */}
+                        </Grid>
                         {/* <Grid item xs={12} md={8} lg={8}>
                             <Paper className={classes.paper}>
                                 <Typography component="p" variant="h4">
@@ -115,13 +114,13 @@ const ConcertView = () => {
                                     Kommende konserter
                                 </Typography>
                                 <br />
-                                {/* <UpcomingItem
-                                    title={"Til lands, til vanns og i lufta med"}
-                                    date={"6. november kl. 16:00"}
+                                <UpcomingItem
+                                    title={"Studentersamfundets Symfoniorkester"}
+                                    date={"28. oktober kl. 13:00"}
                                     location={"Storsalen, Studentersamfundet"}
-                                    tickets={"https://samfundet.no/arrangement/3319-symforch-presenterer-til-lands-til-vanns-og-i-lufta-med-storsalen"}
-                                    ticket_text={"samfundet.no"}
-                                /> */}
+                                    tickets={"https://www.uka.no/program/858-symforch-presenterer/1222/"}
+                                    ticket_text={"uka.no"}
+                                />
                             </Paper>
                         </Grid>
                         {/* <Grid item lg={12} md={12} xs={12}>
