@@ -12,11 +12,13 @@ import Img from '../../components/Img';
 //import festkonsert_banner from '../../assets/festkonsert_banner.jpg';
 //import tsjaikovskij_banner from '../../assets/tsjaikovskij_banner.png';
 //import Video from '../../components/Video';
+import Concert from '../../components/Concert';
 
 //import Copyright from '../../components/Copyright';
 import Sponsors from '../../components/Sponsors';
 import UpcomingItem from '../../components/UpcomingItem';
 import banner from '../../assets/symforch_presenterer.jpg';
+import CONCERTS from '../../CONCERTS';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -52,6 +54,8 @@ const useStyles = makeStyles((theme) => ({
 const ConcertView = () => {
     document.title = "Konserter";
     const classes = useStyles();
+    const concerts = CONCERTS;
+
     return (
         <div className={classes.root}>
             <main className={classes.content}>
@@ -82,32 +86,20 @@ const ConcertView = () => {
                                 </Typography>             
                             </Paper>
                         </Grid>
-                        {/* <Grid item xs={12} md={8} lg={8}>
+                        <Grid item xs={12} md={8} lg={8}>
                             <Paper className={classes.paper}>
-                                <Typography component="p" variant="h4">
-                                    Førstkommende konsert
-                                </Typography>
-                                <Typography component="p" variant="h5">
-                                    Til lands, til vanns og i lufta med 
-                                </Typography>
-                                <Img source={banner} credit={""} alt={'Bannerplakat'} className={classes.img}/>
-                                <Typography component="p" variant="body1">
-                                    <b>Når: </b>6. november kl. 16:00<br />
-                                    <b>Hvor: </b>Studentersamfundet<br />
-                                    <b>Hva: </b>
-                                    Symforch byr deg i høst på en reise til verdens mange varierte og vakre landskap. 
-                                    Gjennom repertoaret omsettes inntrykk helt fra skotske fjell og fjorder, via sentralasiatiske stepper, 
-                                    til romerske furutrær i en inntrykksfull og innbydende konsertopplevelse.<br /><br />
-
-                                    Ta med en venn og bli med komponistene MacCunn, Borodin, Rautavaara, Delius og Respighi på en reise lengre 
-                                    enn du trodde var mulig på to timer.<br /><br />
-
-                                    Dirigeres av Gavin David Lee.<br /><br />
-
-                                    <b>Billetter:</b> <a href="https://samfundet.no/arrangement/3319-symforch-presenterer-til-lands-til-vanns-og-i-lufta-med-storsalen">samfundet.no</a>
-                                </Typography>             
+                                <Concert 
+                                    title={concerts[0].title}
+                                    banner={concerts[0].banner}
+                                    credit={concerts[0].credit}
+                                    when={concerts[0].when}
+                                    where={concerts[0].where}
+                                    conductor={concerts[0].conductor}
+                                    description={concerts[0].description}
+                                    tickets={concerts[0].tickets}
+                                />           
                             </Paper>
-                        </Grid> */}
+                        </Grid>
                         <Grid item xs={12} md={4} lg={4}>
                             <Paper className={classes.paper}>
                                 <Typography component="p" variant="h4">
