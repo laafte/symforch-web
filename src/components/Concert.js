@@ -18,7 +18,7 @@ const Concert = (props) => {
             <Typography component="p" variant="h5">
                 {props.title}
             </Typography>
-            <Img source={props.banner} credit={props.credit} alt={'Promobilde'} className={classes.img}/>
+            <Img source={'/banners/' + props.banner} credit={props.credit} alt={'Promobilde'} className={classes.img}/>
             <Typography component="p" variant="body1">
                 <b>Når: </b>{props.when}<br />
                 <b>Hvor: </b>{props.where}<br />

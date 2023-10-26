@@ -9,15 +9,11 @@ import Container from '@material-ui/core/Container';
 
 // Components
 import Img from '../../components/Img';
-//import festkonsert_banner from '../../assets/festkonsert_banner.jpg';
-//import tsjaikovskij_banner from '../../assets/tsjaikovskij_banner.png';
-//import Video from '../../components/Video';
 import Concert from '../../components/Concert';
 
 //import Copyright from '../../components/Copyright';
 import Sponsors from '../../components/Sponsors';
 import UpcomingItem from '../../components/UpcomingItem';
-import banner from '../../assets/symforch_presenterer.jpg';
 import CONCERTS from '../../CONCERTS';
 
 const useStyles = makeStyles((theme) => ({
@@ -70,7 +66,7 @@ const ConcertView = () => {
                                 <Typography component="p" variant="h5">
                                     Studentersamfundets Symfoniorkester
                                 </Typography>
-                                <Img source={banner} credit={"Foto: foto.samfundet.no"} alt={'Bannerplakat'} className={classes.img}/>
+                                <Img source={'/banners/symforch_presenterer.jpg'} credit={"Foto: foto.samfundet.no"} alt={'Bannerplakat'} className={classes.img}/>
                                 <Typography component="p" variant="body1">
                                     <b>Når: </b>28. oktober kl. 13:00<br />
                                     <b>Hvor: </b>Studentersamfundet<br />

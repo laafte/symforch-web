@@ -1,7 +1,7 @@
 const CONCERTS = [
     {
         title: "Til lands, til vanns og i lufta med",
-        banner: "../assets/symforch_presenterer.jpg",
+        banner: "symforch_presenterer.jpg",
         credit: "Foto: foto.samfundet.no",
         when: "28. oktober kl. 13:00",
         where: "Studentersamfundet",
