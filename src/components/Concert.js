@@ -26,9 +26,11 @@ const Concert = (props) => {
                 {props.description}
                 <br /><br />
 
-                Dirigeres av {props.conductor}.<br /><br />
-
-                <b>Billetter:</b> <a href={props.tickets}>{props.tickets}</a>
+                Dirigent: {props.conductor}
+                
+                {
+                    props.tickets == "" ? <div></div> : <div><br /><b>Billetter:</b> <a href={props.tickets}>{props.tickets}</a></div>
+                }
             </Typography> 
         </div>
     )

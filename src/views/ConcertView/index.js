@@ -50,6 +50,8 @@ const ConcertView = () => {
     document.title = "Konserter";
     const classes = useStyles();
     const concerts = CONCERTS;
+    const currentDate = new Date();
+    
 
     return (
         <div className={classes.root}>
@@ -61,24 +63,40 @@ const ConcertView = () => {
                             <Grid item xs={12} md={8} lg={8}>
                                 <Paper className={classes.paper}>
                                     {
-                                        concert.upcoming 
+                                        new Date(concert.iso8601) > currentDate
                                         ? 
+                                        <div>
                                         <Typography component="p" variant="h4">
-                                            Førstkommende konsert
+                                            Kommende konsert
                                         </Typography>
+                                            <Concert 
+                                            title={concert.title}
+                                            banner={concert.banner}
+                                            credit={concert.credit}
+                                            when={concert.when}
+                                            where={concert.where}
+                                            conductor={concert.conductor}
+                                            description={concert.description}
+                                            tickets={concert.tickets}
+                                        />
+                                        </div>
                                         :
-                                        <div></div>
-                                    }
-                                    <Concert 
-                                        title={concert.title}
-                                        banner={concert.banner}
-                                        credit={concert.credit}
-                                        when={concert.when}
-                                        where={concert.where}
-                                        conductor={concert.conductor}
-                                        description={concert.description}
-                                        tickets={concert.tickets}
-                                    />           
+                                        <div>
+                                            <Typography component="p" variant="h4">
+                                                Tidligere konsert
+                                            </Typography>
+                                            <Concert 
+                                                title={concert.title}
+                                                banner={concert.banner}
+                                                credit={concert.credit}
+                                                when={concert.when}
+                                                where={concert.where}
+                                                conductor={concert.conductor}
+                                                description={concert.description}
+                                                tickets=""
+                                            />
+                                        </div>
+                                    }       
                                 </Paper>
                             </Grid>
                         )}
