@@ -1,0 +1,135 @@
+baseURL: "https://www.symforch.no"
+languageCode: en-us
+title: Symforch
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Symforch
+  description: "Symforch Website"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Symforch
+  # author: ["Me", "You"] # multiple authors
+  images: ["images/lademoen.jpg"]
+  DateFormat: "January, 2006" #January 2, 2006"
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+# ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "assets/favicon.svg"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: ""
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: " "
+    icon: images/symforch-logo.png
+    iconHeight: 35 #default 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Studentersamfundets Symfoniorkester
+    subtitle: "Studentersamfundets Symfoniorkester, også kalt Symforch, ble stiftet i 1910 og er et av landets største og eldste studentorkestre."
+    imageUrl: "images/symforch_clef.png"
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: "G-nøkkel logo til Symforch"
+    #buttons:
+    #  - name: Konserter
+    #    url: konserter
+    #  - name: Om
+    #    url: om
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      - Velkommen til Studentersamfundets Symfoniorkester!
+
+      - Studentersamfundets Symfoniorkester, også kalt Symforch, ble stiftet i 1910 og er et av landets største og eldste studentorkestre.
+      
+
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com/symforch"
+    - name: instagram
+      url: "https://instagram.com/symforch/"
+    - name: tiktok
+      url: "https://www.tiktok.com/@symforch"
+
+
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  #editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: false # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: konserter
+      name: Konserter
+      url: /konserter/
+      weight: 10
+    - identifier: om
+      name: Om
+      url: /om/
+      weight: 20
+    - identifier: contact
+      name: Kontakt
+      url: /kontakt/
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
