@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Studentersamfundets Symfoniorkester
     subtitle: "Studentersamfundets Symfoniorkester, også kalt Symforch, ble stiftet i 1910 og er et av landets største og eldste studentorkestre."
-    imageUrl: "images/symforch_clef.png"
+    imageUrl: "images/clef_profile.svg"
     imageWidth: 240
     imageHeight: 240
     imageTitle: "G-nøkkel logo til Symforch"
