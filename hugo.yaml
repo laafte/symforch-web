@@ -1,11 +1,11 @@
 baseURL: "https://www.symforch.no"
-languageCode: en-us
+languageCode: no
 title: Symforch
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
+buildFuture: true # Allows future content to be displayed
 buildExpired: false
 
 minify:
@@ -51,7 +51,7 @@ params:
 
   label:
     text: " "
-    icon: images/symforch-logo.png
+    icon: "images/logo.svg"
     iconHeight: 35 #default 35
 
   # profile-mode
