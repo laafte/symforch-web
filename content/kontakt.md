@@ -32,15 +32,15 @@ ShowWordCount: false
 ---
 ### Styret
 
-| Rolle                 |      Hvem      |  E-post |
-| -------------         | ----------- | ---- |
-| Styreleder            | Ragnhild Halvorsen Larsen | symforch-leder@samfundet.no |
-| Nestleder             | Johanne Marie Båtstrand   | symforch-nestleder@samfundet.no |
-| Kasserer              | Anna Hagen Slagstad       | symforch-kasserer@samfundet.no |
-| Materialforvalter     | Rikke Alexander Lindstad  | symforch-material@samfundet.no |
-| Styremedlem           | Runa Livsdatter Barstrand | symforch-styremedlem@samfundet.no |
-| Styremedlem           | Marie Solberg             | symforch-styremedlem@samfundet.no |
-| (Konsertansvarlig)    | TBD | TBD |
+| Rolle                                                        | Hvem  |
+| -------------                                                | ----------- |
+| [✉️ Styreleder](mailto:symforch-leder@samfundet.no)           | Ragnhild Halvorsen Larsen |
+| [✉️ Nestleder](mailto:symforch-nestleder@samfundet.no)        | Johanne Marie Båtstrand   |
+| [✉️ Kasserer](mailto:symforch-kasserer@samfundet.no)          | Anna Hagen Slagstad       |
+| [✉️ Materialforvalter](mailto:symforch-material@samfundet.no) | Rikke Alexander Lindstad  |
+| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Runa Livsdatter Barstrand |
+| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Marie Solberg             |
+| (Konsertansvarlig)    | TBD |
 
 ### Adresse
 Studentersamfundets Symfoniorkester\
