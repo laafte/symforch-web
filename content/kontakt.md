@@ -32,15 +32,15 @@ ShowWordCount: false
 ---
 ### Styret
 
-| Rolle                                                        | Hvem  |
-| -------------                                                | ----------- |
-| [✉️ Styreleder](mailto:symforch-leder@samfundet.no)           | Ragnhild Halvorsen Larsen |
-| [✉️ Nestleder](mailto:symforch-nestleder@samfundet.no)        | Johanne Marie Båtstrand   |
-| [✉️ Kasserer](mailto:symforch-kasserer@samfundet.no)          | Anna Hagen Slagstad       |
-| [✉️ Materialforvalter](mailto:symforch-material@samfundet.no) | Rikke Alexander Lindstad  |
-| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Runa Livsdatter Barstrand |
-| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Marie Solberg             |
-| (Konsertansvarlig)    | TBD |
+| Rolle                                                         | Hvem  |
+| -------------                                                 | ----------- |
+| [✉️ Styreleder](mailto:symforch-leder@samfundet.no)           | Kristin Antun Hjellvik |
+| [✉️ Nestleder](mailto:symforch-nestleder@samfundet.no)        | Tyri Eide   |
+| [✉️ Kasserer](mailto:symforch-kasserer@samfundet.no)          | Véra Wigum  |
+| [✉️ Materialforvalter](mailto:symforch-material@samfundet.no) | Andrzej Mielnik |
+| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Hans Tomren |
+| [✉️ Styremedlem](mailto:symforch-styremedlem@samfundet.no)    | Storm Baunstrup |
+| [✉️ Konsertansvarlig](mailto:symforch-konsertansvarlig@samfundet.no) | Runa Livsdatter Barstrand |
 
 ### Adresse
 Studentersamfundets Symfoniorkester\
