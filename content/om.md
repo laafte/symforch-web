@@ -1,13 +1,5 @@
 ---
 title: "Om orkesteret"
-#date: 2025-03-09T22:00:02+00:00
-# weight: 1
-# aliases: ["/first"]
-# tags: ["first"]
-#author: "sialsk"
-# author: ["Me", "You"] # multiple authors
-#showToc: true
-#TocOpen: false
 draft: false
 hidemeta: true
 comments: false
