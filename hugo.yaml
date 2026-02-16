@@ -41,13 +41,8 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "assets/favicon.svg"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: ""
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+
 
   label:
     text: " "
@@ -69,14 +64,6 @@ params:
     #  - name: Om
     #    url: om
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: >
-      - Velkommen til Studentersamfundets Symfoniorkester!
-
-      - Studentersamfundets Symfoniorkester, også kalt Symforch, ble stiftet i 1910 og er et av landets største og eldste studentorkestre.
-      
 
   socialIcons:
     - name: facebook
