@@ -1,6 +1,6 @@
 # symforch-web
 
-The website for Studentersamfundets Symfoniorkester, available at [symforch.no](https://www.symforch.no).
+The website for Studentersamfundets Symfoniorkester, available at [symforch.no](https://www.symforch.no). The site is built with Hugo and the theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
 ## Prerequisites
 
