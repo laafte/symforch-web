@@ -30,3 +30,7 @@ Som studentorkester når Symforch ut til et litt annet publikum enn byens profes
 For våre medlemmer gir orkesteret mulighet til innsikt i organisering, orkester- og frivillighetskultur, gleden av å øve mot felles mål og å gjennomføre større prosjekter. Dette er noe som på sikt gagner amatørmiljøet både her i byen og ellers i landet. Orkesteret er mangfoldig sammensatt, og består av studenter fra ulike studier. Noen studerer musikk, men de fleste går alle mulige andre typer studier.
 
 Selve driften av orkesteret står et styre på seks medlemmer for, som gjør sine plikter på frivillig basis. Å ha et verv av denne typen gir en gyllen organisasjonserfaring og er meget lærerikt.
+
+Er du interessert i å spille i Symforch? Vi har opptak på starten av hvert semester, og i forkant av opptaket arrangeres en åpen øvelse der alle er velkomne! Den åpne øvelsen annonseres på våre [Facebook](https://facebook.com/symforch/)- og [Instagram](https://instagram.com/symforch/)-sider, så følg med der for nærmere info når semesterstart nærmer seg. Her finner du også påmelding til prøvespill.
+
+Du trenger ikke å møte opp på den åpne øvelsen for å melde deg til prøvespill, og du trenger heller ikke å melde deg opp til prøvespill for å komme på den åpne øvelsen! Behovet vårt varierer fra semester til semester, så det er ikke alltid det er prøvespill på alle instrumentgrupper, men alle er uansett velkomne til den åpne øvelsen.
