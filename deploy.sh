@@ -11,4 +11,4 @@ hugo
 
 USERNAME=$1
 echo "Deploying site with rsync"
-rsync -avz0 ./public/ $USERNAME@cassarossa.samfundet.no:/home/cassarossa/laafte/symforch/web/build --delete
+rsync -avzO ./public/ $USERNAME@cassarossa.samfundet.no:/home/cassarossa/laafte/symforch/web/build --delete
