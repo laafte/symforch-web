@@ -23,7 +23,7 @@ cover:
     #hidden: false # only hide on current single page
 ---
 
-Studentersamfundets Symfoniorkester, eller Symforch, er en av de kunstneriske gjengene ved Studentersamfundet i Trondhjem. Orkesteret består av omlag 80 studenter fra ulike studier, og organisering og drift baseres på frivillig arbeid lagt ned av studentene selv. Symforch er et av landets største studentorkestre, og har eksistert siden 1910. Dirigent for orkesteret har vært Gavin David Lee fast siden 1992, og fra høsten 2023 tok Espen Andersen over stafettpinnen.
+Studentersamfundets Symfoniorkester, eller Symforch, er en av de kunstneriske gjengene ved Studentersamfundet i Trondhjem. Orkesteret består av omlag 80 studenter fra ulike studier, og organisering og drift baseres på frivillig arbeid lagt ned av studentene selv. Symforch er et av landets største studentorkestre, og har eksistert siden 1910. Orkesterets dirigent er Espen Andersen, som har hatt stillingen fast siden høsten 2023.
 
 Som studentorkester når Symforch ut til et litt annet publikum enn byens profesjonelle orkester, og gir studenter så vel som lokalsamfunn et utfyllende tilbud innenfor klassisk musikk.
 
